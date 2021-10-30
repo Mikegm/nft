@@ -1,10 +1,4 @@
-/* ==================================================================
 
-*   Ceevee Media Queries
-*   url: styleshout.com
-*   03-18-2014
-
-/* ================================================================== */
 
 
 /* screenwidth less than 1024px
@@ -237,7 +231,9 @@
       
    .bars { width: 100%; }
 
-
+   #resume h2 {
+      font: 40px/70px 'opensans-bold', sans-serif;
+   }
    /* Call To Action Section
    /* ----------------------------------------------------------------- */
    #call-to-action { text-align: center; }
@@ -334,7 +330,9 @@
       font-size: 18px;
       line-height: 54px;
    }
-
+   footer .columns {
+      margin: auto;
+   }
 
 }
 

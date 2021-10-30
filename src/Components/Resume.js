@@ -42,7 +42,8 @@ class Resume extends Component {
       <section id="resume">
         <Slide left duration={1300}>
           <div className="container">
-            <div className="row education">
+            <div className="education">
+              <div className="row">
               <div className="columns header-col">
                 <h2>
                   New generation of Crypto.Chicks
@@ -94,6 +95,7 @@ class Resume extends Component {
                   </div>
                 </div>
               </div>
+</div>
             </div>
           </div>
         </Slide>
