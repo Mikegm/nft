@@ -333,7 +333,12 @@
    footer .columns {
       margin: auto;
    }
-
+   .btn-modal{
+      margin: auto;
+      display: block;
+      width: 140px;
+      text-align: center;
+  }
 }
 
 /* mobile narrow
