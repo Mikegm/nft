@@ -636,14 +636,17 @@ ul#nav li.current a {
    -moz-opacity: 1;
    filter: alpha(opacity=100);
 }
+
 #portfolio .token {
    text-align: center;
-   color:#0762f9;
+   color: #0762f9;
 }
-#portfolio .token span{
+
+#portfolio .token span {
    color: #095153;
    font-weight: bold;
 }
+
 /* popup modal */
 .popup-modal {
    max-width: 550px;
@@ -1312,4 +1315,16 @@ footer .social-links li:first-child {
 .modal-header .btn-close {
    position: absolute;
    right: 20px;
+}
+
+
+.button.btn.btn-meta {
+   background: #fff;
+   padding: 5px;
+   width: 100%;
+   display: flex;
+   line-height: 0;
+}
+.button.btn.btn-meta img{
+   width: 115px;
 }

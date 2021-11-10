@@ -48,7 +48,38 @@ class Header extends Component {
   </div>
 </div>
 
+{/* Modal */}
+<div className="modal fade" id="modalform" tabindex="-1" aria-labelledby="modalformLabel" aria-hidden="true">
+  <div className="modal-dialog">
+    <div className="modal-content">
+      <div className="modal-header">
+        <h5 className="modal-title" id="modalformLabel">Form</h5>
+        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div className="modal-body">
+      <form>
+     <div className="mb-3">
+  <label for="exampleFormControlInput1" className="form-label">Email address</label>
+  <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com"/>
+</div>
+<div className="mb-3">
+  <label for="name" className="form-label">Email address</label>
+  <input type="text" className="form-control" id="name" placeholder="Name"/>
+</div>
+<div className="mb-3">
+  <label for="exampleFormControlTextarea1" className="form-label"> textarea</label>
+  <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
 
+     </form>
+      </div>
+      <div className="modal-footer">
+        <button type="button" className="button btn-cancel" data-bs-dismiss="modal">Close</button>
+        <button type="button" className="button">Send</button>
+      </div>
+    </div>
+  </div>
+</div>
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
             Show navigation
@@ -87,6 +118,11 @@ class Header extends Component {
                 FAQ
               </a>
             </li>
+            <li>
+              <a className="smoothscroll" href="#" data-bs-toggle="modal" data-bs-target="#modalform">
+                Form
+              </a>
+            </li>
           </ul>
         </nav>
 
@@ -111,6 +147,9 @@ class Header extends Component {
                 <a href={github} className="button btn btn-count">
                   <i className="fa fa-flag"></i>Mint Count 10000
                 </a>
+                <a href="#" className="button btn btn-meta">
+                <img src="/images/metamask.png" className=" img-fluid" alt="..." />
+                </a>
               </ul>
             </Fade>
           </div>
@@ -131,8 +170,12 @@ class Header extends Component {
           </a>
         </p>
       </header>
-    );
-  }
-}
 
+      
+    );
+     
+  }
+  
+}
+ 
 export default Header;
