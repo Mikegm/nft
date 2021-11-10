@@ -123,6 +123,11 @@ class Header extends Component {
                 Form
               </a>
             </li>
+            <li>
+            <a href="#" className="button btn btn-meta" sty>
+                <img src="/images/metamask.png" className=" img-fluid" alt="..." />
+                </a>
+            </li>
           </ul>
         </nav>
 
@@ -147,9 +152,7 @@ class Header extends Component {
                 <a href={github} className="button btn btn-count">
                   <i className="fa fa-flag"></i>Mint Count 10000
                 </a>
-                <a href="#" className="button btn btn-meta">
-                <img src="/images/metamask.png" className=" img-fluid" alt="..." />
-                </a>
+                
               </ul>
             </Fade>
           </div>

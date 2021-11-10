@@ -1319,12 +1319,12 @@ footer .social-links li:first-child {
 
 
 .button.btn.btn-meta {
-   background: #fff;
-   padding: 5px;
+  
+   padding: 0;
    width: 100%;
    display: flex;
    line-height: 0;
 }
 .button.btn.btn-meta img{
-   width: 115px;
+   width: 100px;
 }
